@@ -146,6 +146,7 @@
       bindings = <&kp>, <&kp>;
       hold-trigger-key-positions = <KEYS_L THUMBS>;
       hold-trigger-on-release;              // delay positional check until key-release
+    };
     bspc_del: backspace_delete {
         compatible = "zmk,behavior-mod-morph";
         #binding-cells = <0>;
@@ -280,7 +281,6 @@
 //                             ╰─────────────┴─────────────┴─────────────╯   ╰─────────────┴─────────────┴─────────────╯
                         >;
                 };
-
                 fun_layer {
                         bindings = <
 // ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮   ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮
