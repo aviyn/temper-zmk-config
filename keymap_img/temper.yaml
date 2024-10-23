@@ -67,10 +67,10 @@ layers:
     - ↑
     - →
     - {t: Sft+ ;, s: 'Sft+ :'}
-  - - Gui+ Z
-    - Gui+ X
-    - Gui+ C
-    - Gui+ V
+  - - ⌘Z
+    - ⌘X
+    - ⌘C
+    - ⌘V
     - ↹
     - {t: 'Gui+ [', s: 'Gui+ {'}
     - {t: 'Gui+ ]', s: 'Gui+ }'}
