@@ -1,6 +1,6 @@
 layout: {zmk_keyboard: temper}
 layers:
-  default:
+  Default:
   - [Q, W, E, R, T, Y, U, I, O, P]
   - - A
     - S
@@ -24,11 +24,11 @@ layers:
     - {t: /, h: ⎇}
   - - ⌘
     - ESC
-    - {t: SPACE, h: lower}
-    - {t: RET, h: raise}
+    - {t: SPACE, h: Lower}
+    - {t: RET, h: Raise}
     - BSPC
     - ⎇
-  colemak:
+  Colemak:
   - - Q
     - W
     - F
@@ -51,12 +51,12 @@ layers:
     - {t: ., s: ':'}
     - {t: '?', s: '!'}
   - - ⌘
-    - num
+    - Num
     - {t: ⇧, s: ⇪}
     - SPACE
-    - nav
+    - Nav
     - {t: BACKSPACE, s: Alt+BACKSPACE}
-  lower:
+  Lower:
   - ['1', '2', '3', '4', '5', '6', '7', '8', '9', '0']
   - - '6'
     - '7'
@@ -83,8 +83,8 @@ layers:
     - {type: held}
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
-    - {t: num, h: toggle}
-  raise:
+    - {t: Num, h: toggle}
+  Raise:
   - ['!', '@', '#', $, '%', ^, '&', KP MULTIPLY, (, )]
   - - {t: ▽, type: trans}
     - {t: ▽, type: trans}
@@ -112,7 +112,7 @@ layers:
     - {type: held}
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
-  num:
+  Num:
   - - '~'
     - '@'
     - '{'
@@ -139,8 +139,8 @@ layers:
     - {t: ▽, type: trans}
     - '0'
     - {t: ▽, type: trans}
-    - {t: num, h: toggle}
-  nav:
+    - {t: Num, h: toggle}
+  Nav:
   - - {t: ▽, type: trans}
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
@@ -177,8 +177,8 @@ layers:
     - {t: ▽, type: trans}
     - {type: held}
     - {t: ▽, type: trans}
-  fun:
-  - - {t: colemak, h: toggle}
+  Fun:
+  - - {t: Colemak, h: toggle}
     - MUTE
     - VOL DN
     - VOL UP
