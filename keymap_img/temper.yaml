@@ -202,7 +202,7 @@ layers:
     - PREV
     - PP
     - NEXT
-    - {t: ▽, type: trans}
+    - '&studio_unlock'
     - {t: ▽, type: trans}
     - F1
     - F2
